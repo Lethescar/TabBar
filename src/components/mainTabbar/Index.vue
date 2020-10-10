@@ -41,8 +41,8 @@
   </div>
 </template>
 <script>
-import TabBar from "./TabBar";
-import TabBarItem from "./TabBarItem";
+import TabBar from "../tabbar/TabBar";
+import TabBarItem from "../tabbar/TabBarItem";
 export default {
   name: "Home",
   components: {

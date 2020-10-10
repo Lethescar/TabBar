@@ -1,15 +1,15 @@
 <template>
   <div id="nav">
     <router-view></router-view>
-    <tab-bar></tab-bar>
+    <main-tab-bar></main-tab-bar>
   </div>
 </template>
 <script>
-import TabBar from "./components/tabbar/Index";
+import MainTabBar from "./components/mainTabbar/Index";
 export default {
   name: "Home",
   components: {
-    TabBar
+    MainTabBar
   }
 };
 </script>
